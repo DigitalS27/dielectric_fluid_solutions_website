@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import ThisIsUs from './components/ThisIsUs';
 import Services from './components/Services';
 import Equipment from './components/Equipment';
 import Accreditation from './components/Accreditation';
@@ -13,6 +14,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <About />
+      <ThisIsUs />
       <Services />
       <Equipment />
       <Accreditation />

@@ -14,7 +14,7 @@ export default function Contact() {
               </div>
               <div>
                 <h4>Phone</h4>
-                <p>+27 (0) XX XXX XXXX</p>
+                <p>T: 010 745 4927</p>
               </div>
             </div>
             <div className="contact__info-item">
@@ -23,7 +23,7 @@ export default function Contact() {
               </div>
               <div>
                 <h4>Email</h4>
-                <p>info@dielectricfluidsolutions.co.za</p>
+                <p>info@dielectricfs.co.za</p>
               </div>
             </div>
             <div className="contact__info-item">
@@ -32,29 +32,33 @@ export default function Contact() {
               </div>
               <div>
                 <h4>Location</h4>
-                <p>South Africa</p>
+                <p>Unit 2, Protea Industrial Park, Protea Street, Aureus, Randfontein</p>
               </div>
             </div>
             <div className="contact__lab-photo">
               <img src="/images/WhatsApp Image 2025-07-24 at 09.41.23.jpg" alt="DFS Laboratory" />
             </div>
           </div>
-          <form className="contact__form" onSubmit={(e) => e.preventDefault()}>
+          <form className="contact__form" action="https://formsubmit.co/johan@teccoil.co.za" method="POST">
+            <input type="hidden" name="_subject" value="New enquiry from DFS website" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="text" name="_honey" style={{ display: 'none' }} />
             <div className="form__group">
               <label htmlFor="name">Full Name</label>
-              <input type="text" id="name" placeholder="Your name" required />
+              <input type="text" id="name" name="name" placeholder="Your name" required />
             </div>
             <div className="form__group">
               <label htmlFor="email">Email Address</label>
-              <input type="email" id="email" placeholder="you@company.co.za" required />
+              <input type="email" id="email" name="email" placeholder="you@company.co.za" required />
             </div>
             <div className="form__group">
               <label htmlFor="company">Company</label>
-              <input type="text" id="company" placeholder="Your company name" />
+              <input type="text" id="company" name="company" placeholder="Your company name" />
             </div>
             <div className="form__group">
               <label htmlFor="message">Message</label>
-              <textarea id="message" rows="5" placeholder="Tell us about your testing requirements..." required />
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your testing requirements..." required />
             </div>
             <button type="submit" className="btn btn--full">Send Enquiry</button>
           </form>

@@ -350,6 +350,91 @@ a {
   font-weight: 500;
 }
 
+/* ===== THIS IS US ===== */
+.this-is-us__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+  margin-bottom: 64px;
+}
+
+.this-is-us__card {
+  background: var(--bg);
+  padding: 36px 28px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  text-align: center;
+  transition: all var(--transition);
+}
+
+.this-is-us__card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.this-is-us__icon {
+  width: 56px;
+  height: 56px;
+  background: var(--primary-light);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.this-is-us__icon svg {
+  width: 28px;
+  height: 28px;
+  color: var(--primary);
+}
+
+.this-is-us__card h3 {
+  font-size: 1.15rem;
+  margin-bottom: 12px;
+  color: var(--dark);
+}
+
+.this-is-us__card p {
+  color: var(--gray);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.this-is-us__gallery-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 32px;
+}
+
+.this-is-us__gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.this-is-us__gallery-item {
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: all var(--transition);
+}
+
+.this-is-us__gallery-item:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.this-is-us__gallery-item img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
 /* ===== SERVICES ===== */
 .services__grid {
   display: grid;
@@ -668,8 +753,10 @@ a {
 .footer__badges img {
   height: 64px;
   object-fit: contain;
-  filter: brightness(0) invert(1);
-  opacity: 0.6;
+  background: #fff;
+  border-radius: 6px;
+  padding: 6px 10px;
+  opacity: 0.85;
   transition: opacity var(--transition);
 }
 
@@ -689,6 +776,10 @@ a {
   .about__grid {
     grid-template-columns: 1fr;
     gap: 40px;
+  }
+
+  .this-is-us__grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .services__grid {
@@ -761,6 +852,14 @@ a {
 
   .section__title {
     font-size: 1.75rem;
+  }
+
+  .this-is-us__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .this-is-us__gallery-grid {
+    grid-template-columns: 1fr;
   }
 
   .services__grid {
