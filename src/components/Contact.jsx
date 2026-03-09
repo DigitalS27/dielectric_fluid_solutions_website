@@ -39,7 +39,7 @@ export default function Contact() {
               <img src="/images/WhatsApp Image 2025-07-24 at 09.41.23.jpg" alt="DFS Laboratory" />
             </div>
           </div>
-          <form className="contact__form" action="https://formsubmit.co/johan@teccoil.co.za" method="POST">
+          <form className="contact__form" action="https://formsubmit.co/johan@dielectricfs.co.za" method="POST">
             <input type="hidden" name="_subject" value="New enquiry from DFS website" />
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_template" value="table" />
