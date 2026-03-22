@@ -40,8 +40,8 @@ export default function Footer() {
           <div className="footer__accred">
             <h4>Accreditations</h4>
             <div className="footer__badges">
-              <img src="/images/SANAS_logo.png" alt="SANAS T1060" />
-              <img src="/images/iso9001_certified.png" alt="ISO 9001:2015" />
+              <img src="/images/SANAS_logo.png" alt="SANAS Accredited Testing Laboratory T1060" />
+              <img src="/images/iso9001_certified.png" alt="ISO 9001:2015 Certified Quality Management System" />
             </div>
           </div>
         </div>

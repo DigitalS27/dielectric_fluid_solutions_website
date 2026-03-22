@@ -4,7 +4,7 @@ export default function About() {
       <div className="container">
         <div className="about__grid">
           <div className="about__image">
-            <img src="/images/lab_entrance.jpg" alt="Dielectric Fluid Solutions laboratory" />
+            <img src="/images/lab_entrance.jpg" alt="Dielectric Fluid Solutions transformer oil testing laboratory in Randfontein, South Africa" />
           </div>
           <div className="about__text">
             <h2 className="section__title">About Dielectric Fluid Solutions</h2>
