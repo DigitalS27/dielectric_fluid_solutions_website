@@ -11,35 +11,35 @@ const services = [
     title: 'Moisture Content',
     description:
       'Coulometric Karl Fischer titration to accurately quantify dissolved water in transformer oil, which degrades insulation performance.',
-    standard: 'IEC 60814',
+    standard: 'ASTM D1533',
   },
   {
     icon: '🔬',
     title: 'Dissolved Gas Analysis (DGA)',
     description:
       'Gas chromatography to detect and quantify fault gases dissolved in oil, enabling early identification of thermal and electrical faults.',
-    standard: 'IEC 60567',
+    standard: 'ASTM D3612',
   },
   {
     icon: '🧪',
     title: 'Acidity (Neutralisation Number)',
     description:
       'Potentiometric titration to measure acidic compounds in oil that cause corrosion and accelerate ageing of insulation materials.',
-    standard: 'IEC 62021',
+    standard: 'ASTM D974',
   },
   {
     icon: '📊',
     title: 'Furfural & Related Compounds',
     description:
       'HPLC analysis of furanic compounds to assess the degree of degradation of cellulose insulation within the transformer.',
-    standard: 'IEC 61198',
+    standard: 'ASTM D5837',
   },
   {
     icon: '🛡️',
     title: 'Inhibitor Content (DBPC)',
     description:
       'Determines the remaining concentration of antioxidant inhibitor, helping plan oil reclamation and treatment schedules.',
-    standard: 'IEC 60666',
+    standard: 'ASTM D2668',
   },
 ];
 
@@ -49,7 +49,7 @@ export default function Services() {
       <div className="container">
         <h2 className="section__title section__title--center">Our Testing Services</h2>
         <p className="section__subtitle">
-          Comprehensive analytical testing performed to international IEC standards,
+          Comprehensive analytical testing performed to international ASTM and IEC standards,
           backed by SANAS accreditation under ISO 17025:2017.
         </p>
         <div className="services__grid">

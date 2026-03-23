@@ -31,7 +31,7 @@ export default function Accreditation() {
         <div className="accreditation__note">
           <p>
             Our accreditation scope covers a comprehensive range of transformer oil tests
-            performed to IEC standards. Contact us for a full copy of our scope of accreditation.
+            performed to ASTM and IEC standards. Contact us for a full copy of our scope of accreditation.
           </p>
         </div>
       </div>
