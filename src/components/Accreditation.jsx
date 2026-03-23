@@ -9,7 +9,7 @@ export default function Accreditation() {
         </p>
         <div className="accreditation__grid">
           <div className="accreditation-card">
-            <img src="/images/SANAS_logo.png" alt="SANAS Accredited Testing Laboratory T1060" />
+            <img src="/images/SANAS_logo.png" alt="SANAS Accredited Testing Laboratory T1060" loading="lazy" width="200" height="200" />
             <h3>SANAS Accredited</h3>
             <p>
               Accredited by the South African National Accreditation System (SANAS) as a
@@ -19,7 +19,7 @@ export default function Accreditation() {
             </p>
           </div>
           <div className="accreditation-card">
-            <img src="/images/iso9001_certified.png" alt="ISO 9001:2015 Certified" />
+            <img src="/images/iso9001_certified.png" alt="ISO 9001:2015 Certified" loading="lazy" width="200" height="200" />
             <h3>ISO 9001:2015</h3>
             <p>
               Our quality management system is certified to ISO 9001:2015, demonstrating

@@ -49,7 +49,7 @@ export default function Equipment() {
           {instruments.map((inst) => (
             <div className="equipment-card" key={inst.name}>
               <div className="equipment-card__img">
-                <img src={inst.image} alt={inst.name} />
+                <img src={inst.image} alt={inst.name} loading="lazy" width="400" height="300" />
               </div>
               <div className="equipment-card__body">
                 <h3>{inst.name}</h3>

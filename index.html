@@ -11,7 +11,8 @@
     </script>
 
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/images/lab_logo.png" />
+    <link rel="icon" type="image/png" href="/images/lab_logo.png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/images/lab_logo.png" sizes="180x180" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Primary SEO -->
@@ -46,7 +47,7 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "MedicalBusiness",
+      "@type": "ProfessionalService",
       "@id": "https://dielectricfs.co.za/#organization",
       "name": "Dielectric Fluid Solutions",
       "url": "https://dielectricfs.co.za",
@@ -78,6 +79,18 @@
           "name": "ISO 9001:2015 Quality Management System"
         }
       ],
+      "priceRange": "$$",
+      "areaServed": {
+        "@type": "Country",
+        "name": "South Africa"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "17:00"
+      },
+      "sameAs": [],
       "makesOffer": [
         {
           "@type": "Offer",
@@ -141,6 +154,59 @@
     }
     </script>
 
+    <!-- Structured Data: FAQ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is transformer oil testing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Transformer oil testing is a suite of analytical tests performed on insulating oil used in power transformers and high-voltage equipment. These tests — including dissolved gas analysis (DGA), breakdown voltage, moisture content, acidity, and furfural analysis — assess the condition of the oil and help detect developing faults before they cause costly failures."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is dissolved gas analysis (DGA) important?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DGA detects fault gases dissolved in transformer oil caused by thermal and electrical stress. By analysing the type and concentration of gases such as hydrogen, methane, ethylene, and acetylene, DGA enables early identification of incipient faults like overheating, arcing, and partial discharge — often before any external symptoms appear."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is your laboratory SANAS accredited?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Dielectric Fluid Solutions is accredited by the South African National Accreditation System (SANAS) under ISO/IEC 17025:2017, facility number T1060. This accreditation confirms our technical competence, impartiality, and consistent operation to internationally recognised standards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What standards do you test to?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We perform testing to international ASTM and IEC standards. Our breakdown voltage testing follows IEC 60156, while dissolved gas analysis (ASTM D3612), moisture content (ASTM D1533), acidity (ASTM D974), furfural analysis (ASTM D5837), and inhibitor content (ASTM D2668) all follow ASTM methods."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is your laboratory located?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our laboratory is located at Unit 2, Protea Industrial Park, Protea Street, Aureus, Randfontein, Gauteng, South Africa. We serve clients across South Africa."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://formsubmit.co" />
+    <link rel="preload" as="image" href="/images/Dielectric-Fluid-Solutions-Website-Concept-2_0002_acidity.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
