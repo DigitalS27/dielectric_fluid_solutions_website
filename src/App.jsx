@@ -5,6 +5,7 @@ import ThisIsUs from './components/ThisIsUs';
 import Services from './components/Services';
 import Equipment from './components/Equipment';
 import Accreditation from './components/Accreditation';
+import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -19,6 +20,7 @@ export default function App() {
         <Services />
         <Equipment />
         <Accreditation />
+        <FAQ />
         <Contact />
       </main>
       <Footer />

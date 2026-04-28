@@ -23,6 +23,7 @@ export default function Footer() {
               <li><a href="#services" onClick={(e) => scrollTo(e, 'services')}>Services</a></li>
               <li><a href="#equipment" onClick={(e) => scrollTo(e, 'equipment')}>Equipment</a></li>
               <li><a href="#accreditation" onClick={(e) => scrollTo(e, 'accreditation')}>Accreditation</a></li>
+              <li><a href="#faq" onClick={(e) => scrollTo(e, 'faq')}>FAQ</a></li>
               <li><a href="#contact" onClick={(e) => scrollTo(e, 'contact')}>Contact</a></li>
             </ul>
           </div>
